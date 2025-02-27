@@ -1,0 +1,17 @@
+:root{
+  --cor1: #5465ffff;
+  --cor2: #788bffff;
+  --cor3: #9bb1ffff;
+  --cor4: #bfd7ffff;
+  --cor5: #e2fdffff;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root, body, html{
+  min-height: 100vh;
+  background-color: var(--cor4);
+}
